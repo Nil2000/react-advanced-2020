@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Setup from './tutorial/4-forms/setup/1-controlled-inputs';
+// import FinalSetup from './tutorial/1-useState/final/2-useState-basics'
 function App() {
   return (
     <div className='container'>
-      <h2>Advanced Tutorial</h2>
+      <Setup/>
+      {/* <FinalSetup/> */}
     </div>
   )
 }
